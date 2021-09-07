@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="NT.css">
+    <title>Stock Screener</title>
+    <script src="NT.js"></script>
+    
+    
+</head>
+
+<body>
+    <!-- Main div code -->
+    <div id="main">
+        <div class="h-tag">
+            <h2>Welcome To Stock Screener</h2>
+        </div>
+        <!-- Login box -->
+        <div class="login">
+            <table cellspacing="2" align="center" cellpadding="8" border="0">
+                <tr>
+                    <td>Enter Symbol :</td>
+                    <td><input type="text" placeholder="Enter Symbol of Stock here here" id="symbol" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td>Enter Starting date :</td>
+                    <td><input type="date" placeholder="Enter Starting date here" id="pwd1" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td>Enter Ending date :</td>
+                    <td><input type="date" placeholder="Enter Ending date here" id="pwd2" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Reset" onclick="clearFunc()" class="btn" />
+                        <input type="submit" value="Search" class="btn" onClick="search()"  />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- login box div ending here.. -->
+    </div>
+    <!-- Main div ending here... -->
+
+</body>
+
+</html>
